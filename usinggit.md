@@ -243,3 +243,11 @@ time to deal with them now — just use:
 ```
 git merge --abort .
 ```
+
+## Discard changes from one side during a conflict
+
+If you want to discard all the changes from one side of the merge, use:
+
+```
+git checkout --{ours,theirs} file
+```
