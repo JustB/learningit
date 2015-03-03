@@ -99,11 +99,56 @@ git rm <filename>
 The git show command is really useful for presenting any of the objects in a very human readable format.
 
 ```
+git show branchname|SHA|tag|tree
+```
 
+# Diff
 
+Git has a great diff utility built in that can give you statistics or a patch file given any combination of tree
+objects, working directory and index.
 
+```
+justb:~/GitCourse  (master *)
+⇒ git diff
+diff --git a/usinggit.md b/usinggit.md
+index f4d4eeb..28c451e 100644
+--- a/usinggit.md
++++ b/usinggit.md
+@@ -99,7 +99,13 @@ git rm <filename>
+ The git show command is really useful for presenting any of the objects in a very human readable format.
 
+ ```
++git show branchname|SHA|tag|tree
++```
++
++# Diff
 
++Git has a great diff utility built in that can give you statistics or a patch file given any combination of tree
++objects, working directory and index.
+```
+
+We can have a more compact view:
+
+```
+justb:~/GitCourse  (master *)
+⇒ git diff --numstat
+25      0       usinggit.md
+```
+
+# Branching
+
+## Switching branches
+
+Let’s say we’re working on our project and we want to add a new function to our library, so we’ll make a new branch
+called `new-func` and switch to it. There are two ways we can do this
+
+```
+$ git branch newfunc; git checkout newfunc
+```
+
+```
+$ git checkout -b newfunc
+```
 
 
 
