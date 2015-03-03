@@ -116,10 +116,6 @@ index f4d4eeb..28c451e 100644
 +++ b/usinggit.md
 @@ -99,7 +99,13 @@ git rm <filename>
  The git show command is really useful for presenting any of the objects in a very human readable format.
-
- ```
-+git show branchname|SHA|tag|tree
-+```
 +
 +# Diff
 
