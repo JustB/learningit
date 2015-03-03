@@ -1,3 +1,3 @@
 # Table of Contents
 
-[Learning Git](learningit.md)
+[Using Git](usingit.md)
