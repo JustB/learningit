@@ -1,3 +1,3 @@
 # Table of Contents
 
-[Using Git](usingit.md)
+[Using Git](usinggit.md)
