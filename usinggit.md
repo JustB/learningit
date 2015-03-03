@@ -85,3 +85,28 @@ If we want to commit all our changes, we can use this shorthand:
 $ git commit -a -m ‘committing all changes’
 ```
 ![git commit -a](img/gitcommita.png)
+
+## Removing
+
+For removing files from your tree, you can simply run:
+
+```
+git rm <filename>
+```
+
+# Showing objects
+
+The git show command is really useful for presenting any of the objects in a very human readable format.
+
+```
+
+
+
+
+
+
+
+
+
+
+
